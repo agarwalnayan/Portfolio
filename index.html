@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayan Agarwal - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="formal-header">Nayan Agarwal</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section">
+        <img src="images\Mypic.jpg" alt="Nayan Agarwal" class="profile-image">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hi, I am Nayan, a passionate computer science student, currently pursuing BCA from Inspira Knowledge Campus and in 3rd Sem. I have experience building web applications with HTML, CSS, and JavaScript. I am particularly interested in web development and have been involved in various projects that have sharpened my skills.</p>
+            <p>My journey into programming began at a young age, where I was fascinated by how websites work and how I could create my own. This curiosity has led me to explore different programming languages and frameworks, and I am eager to learn more. In my free time, I enjoy working on personal projects and contributing to open-source initiatives.</p>
+            <div class="social-links">
+                <a href="https://github.com/agarwalnayan" target="_blank"><img src="images\github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/nayan-agarwal-13a7232b6/?trk=opento_sprofile_topcard" target="_blank"><img src="images\linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/nay_an_09/profilecard/?igsh=cDZpeXo3ZjZrems=" target="_blank"><img src="images\instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="button-container">
+                <button onclick="document.getElementById('contact').scrollIntoView();" class="contact-button">Contact Me</button>
+                <button onclick="document.getElementById('resume').scrollIntoView();" class="resume-button">See My Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>Key Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="images\html.png" alt="HTML Logo" class="skill-logo">
+                <h3>HTML</h3>
+                <p>Markup language for structuring web content.</p>
+            </div>
+            <div class="skill-card">
+                <img src="images\css-3.png" alt="CSS Logo" class="skill-logo">
+                <h3>CSS</h3>
+                <p>Style sheet language for designing web pages.</p>
+            </div>
+            <div class="skill-card">
+                <img src="images\java-script.png" alt="JavaScript Logo" class="skill-logo">
+                <h3>JavaScript</h3>
+                <p>Programming language for adding interactivity to web pages.</p>
+            </div>
+            <div class="skill-card">
+                <img src="images\python.png" alt="Python Logo" class="skill-logo">
+                <h3>Python</h3>
+                <p>High-level programming language for various applications.</p>
+            </div>
+            <div class="skill-card">
+                <img src="images\letter-c.png" alt="C Logo" class="skill-logo">
+                <h3>C</h3>
+                <p>General-purpose programming language for system/software development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Stone Paper Scissor Game</h3>
+                <p>A fun game built using HTML, CSS, and JavaScript that allows users to play against the computer. Features dynamic animations and sound effects for an immersive experience.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/agarwalnayan/stone-paper-scissor" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Tic Tac Toe Game</h3>
+                <p>A classic game implemented with HTML, CSS, and JavaScript. Play against a friend or challenge yourself against the computer's AI.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/agarwalnayan/tic-tac-toe" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Currency Converter</h3>
+                <p>A simple currency converter created with HTML, CSS, and JavaScript that allows users to convert currencies using real-time exchange rates.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/agarwalnayan/currency-converter" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Calculator</h3>
+                <p>A simple yet powerful calculator built using HTML, CSS, and JavaScript, featuring basic operations and a user-friendly interface.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <a href="https://github.com/agarwalnayan/calculator" target="_blank" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="resume-contact" class="resume-contact-section">
+        <h1>Get in Touch</h1>
+        <div class="resume-contact-container">
+            <div class="resume-section">
+                <h3>Resume</h3>
+                <p>Download my resume to learn more about my education, experiences, and skills.</p>
+                <a href="Resume.pdf" download class="resume-link">Download My Resume</a>
+            </div>
+            <br>
+            <div class="contact-section">
+                <h3>Contact Me</h3>
+                <p><strong>Name:</strong> Nayan Agarwal</p>
+                <p><strong>Email:</strong> agarwalnayan480@gmail.com</p>
+                <p><strong>Phone:</strong> 6295388038</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nayan-agarwal-13a7232b6/?trk=opento_sprofile_topcard" target="_blank">Nayan Agarwal</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Nayan Agarwal. All rights reserved.</p>
+        <p><a href="#about">Back to top</a></p>
+    </footer>
+</body>
+</html>
